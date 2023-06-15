@@ -18,7 +18,7 @@ app.use(express.urlencoded({extended: true, limit: "50mb"}));
 app.use(cookieParser());
 
 // app.use(cors())
-app.use(cors({credentials: true, origin: ['http://localhost:3000', process.env.FRONTEND_URL]}));
+app.use(cors({credentials: true, origin: ['https://chatifymern.netlify.app', process.env.FRONTEND_URL]}));
 
 
 app.use("/api/user", userRoutes);
