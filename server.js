@@ -22,7 +22,7 @@ cloudinary.config({
 });
 
 const server = app.listen(PORT, () => {
-    console.log(`listening on Port : http://localhost:${PORT}`.cyan.bold);
+    console.log(`listening on Port : http://54.209.253.54:${PORT}`.cyan.bold);
 });
 
 socketIoInitialization(server);
