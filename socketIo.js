@@ -6,7 +6,7 @@ export const socketIoInitialization = (server) => {
     const io = new Server(server, {
         pingTimeout: 60000,
         cors: {
-            origin: ['http://44.205.255.196:3000', process.env.FRONTEND_URL],
+            origin: ['http://18.212.1.118:3000', process.env.FRONTEND_URL],
             credentials: true,
         },
     });
