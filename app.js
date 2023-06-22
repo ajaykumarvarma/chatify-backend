@@ -18,7 +18,7 @@ app.use(express.urlencoded({extended: true, limit: "50mb"}));
 app.use(cookieParser());
 
 // app.use(cors())
-app.use(cors({credentials: true, origin: ['http://18.212.1.118:3000', process.env.FRONTEND_URL]}));
+app.use(cors({credentials: true, origin: ['http://ec2-18-212-1-118.compute-1.amazonaws.com:3000', process.env.FRONTEND_URL]}));
 
 
 app.use("/api/user", userRoutes);
