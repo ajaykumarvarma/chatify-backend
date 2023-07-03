@@ -6,7 +6,7 @@ export const socketIoInitialization = (server) => {
     const io = new Server(server, {
         pingTimeout: 60000,
         cors: {
-            origin: ['http://ec2-18-212-1-118.compute-1.amazonaws.com:3000', process.env.FRONTEND_URL],
+            origin: ['https://64a2921d992e0e60666f1c1e--timely-sawine-aa7810.netlify.app', process.env.FRONTEND_URL],
             credentials: true,
         },
     });
