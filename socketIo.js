@@ -6,7 +6,7 @@ export const socketIoInitialization = (server) => {
     const io = new Server(server, {
         pingTimeout: 60000,
         cors: {
-            origin: ['https://64a2921d992e0e60666f1c1e--timely-sawine-aa7810.netlify.app', process.env.FRONTEND_URL],
+            origin: ['http://chatify.ajaykumarvarma.in', process.env.FRONTEND_URL],
             credentials: true,
         },
     });
