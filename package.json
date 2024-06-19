@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "cloudinary": "^1.35.0",
+    "cloudinary": "^1.41.3",
     "colors": "^1.4.0",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
@@ -20,6 +20,6 @@
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.6.10",
-    "socket.io": "^4.6.1"
+    "socket.io": "^4.7.5"
   }
 }
